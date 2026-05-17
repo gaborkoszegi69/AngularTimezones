@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import {TimezoneComponent} from './timezone/timezone.component';
 
 @Component({
   selector: 'app-root',
-  imports: [],
+  imports: [TimezoneComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
